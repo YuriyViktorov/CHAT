@@ -1,0 +1,57 @@
+body {
+    background: gray;
+}
+
+.wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+}
+#output b {
+    color: rgba(41, 5, 249, 0.471);
+
+}
+
+
+.first {
+    color: red;
+}
+
+#error {
+    color: red;
+}
+
+header,
+footer
+{
+    text-align: center;
+    background: rgb(0, 174, 255);
+    padding: 10px;
+}
+
+main {
+    background: rgb(0, 255, 204);
+    padding: 10px;
+}
+
+nav {
+    background: rgba(225, 162, 61, 0.938);
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+nav a {
+    background: blue;
+    padding: 2px;
+    color: white;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+nav a:hover {
+    background: red;
+}
